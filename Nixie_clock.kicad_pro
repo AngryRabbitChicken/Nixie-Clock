@@ -406,23 +406,18 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
+      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
-      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
-      "missing_bidi_pin": "warning",
-      "missing_input_pin": "warning",
-      "missing_power_pin": "error",
-      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -432,7 +427,6 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -506,280 +500,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "HiVoltage",
-        "pattern": "167V"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/N1-A"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/N2-A"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/N3-A"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/N4-A"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/N5-A"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/N6-A"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U2-D0"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U2-D1"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U2-D2"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U2-D3"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U2-D4"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U2-D5"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U2-D6"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U2-D7"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U4-D0"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U4-D1"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U4-D2"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U4-D3"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U4-D4"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U4-D5"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U4-D6"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U4-D7"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U6-D0"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U6-D1"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U6-D2"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U6-D3"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U6-D4"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U6-D5"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U6-D6"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U6-D7"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U7-D0"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U7-D1"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U7-D2"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U7-D3"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U7-D4"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U7-D5"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U7-D6"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U7-D7"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U8-D0"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U8-D1"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U8-D2"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U8-D3"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U8-D4"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U8-D5"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U8-D6"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U8-D7"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U9-D0"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U9-D1"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U9-D2"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U9-D3"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U9-D4"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U9-D5"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U9-D6"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U9-D7"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U10-D0"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U10-D1"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U10-D2"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U10-D3"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U10-D4"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U10-D5"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U10-D6"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U10-D7"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U11-D0"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U11-D1"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U11-D2"
-      },
-      {
-        "netclass": "HiVoltage",
-        "pattern": "/U11-D3"
-      },
-      {
-        "netclass": "5V Power",
-        "pattern": "+5V"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -885,6 +606,7 @@
     "net_format_name": "",
     "ngspice": {
       "fix_include_paths": true,
+      "fix_passive_vals": false,
       "meta": {
         "version": 0
       },
@@ -893,6 +615,7 @@
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
